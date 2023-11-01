@@ -11,15 +11,15 @@ import 'react-multi-carousel/lib/styles.css';
 const LogoSection = () => {
   return (
     <div id="Home" style={{marginTop: 90}}>
-      <Carousel responsive={CAROUSEL_RESPONSIVE_SIZES_LOGO} draggable swipeable infinite /*autoPlay*/ autoPlaySpeed={4000} transitionDuration={500} removeArrowOnDeviceType={["tablet", "mobile"]}>
+      <Carousel responsive={CAROUSEL_RESPONSIVE_SIZES_LOGO} draggable swipeable infinite autoPlay autoPlaySpeed={4000} transitionDuration={500} removeArrowOnDeviceType={["tablet", "mobile"]}>
         <div style={{height: 'inherit'}}>
-          <CarouselImage loading='lazy' src={FirstImage} alt="Carousel Image" />
+          <CarouselImage src={FirstImage} alt="Carousel Image" />
         </div>
         <div style={{height: 'inherit'}}>
-          <CarouselImage loading='lazy' src={SecondImage} alt="Carousel Image" />
+          <CarouselImage src={SecondImage} alt="Carousel Image" />
         </div>
         <div style={{height: 'inherit'}}>
-          <CarouselImage loading='lazy' src={ThirdImage} alt="Carousel Image" />
+          <CarouselImage src={ThirdImage} alt="Carousel Image" />
         </div>
       </Carousel>
     </div>

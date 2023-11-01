@@ -54,6 +54,7 @@ export const MenuItemLink = styled.a`
   text-decoration: none;
   text-align: left;
   padding: 0.7rem 1rem;
+  cursor: pointer;
 
   &:hover {
     color: ${WHITE};
