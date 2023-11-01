@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: RussoOne;
+  src: url(./assets/fonts/Russo_One/RussoOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBlack;
+  src: url(./assets/fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+  font-family: PoppinsExtraBold;
+  src: url(./assets/fonts/Poppins/Poppins-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsBold;
+  src: url(./assets/fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: PoppinsLight;
+  src: url(./assets/fonts/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: PoppinsRegular;
+  src: url(./assets/fonts/Poppins/Poppins-Regular.ttf);
+}
