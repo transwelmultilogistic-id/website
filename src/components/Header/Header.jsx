@@ -53,7 +53,7 @@ const Header = () => {
                 onClose={handleSidebarClose} 
                 isOpen={openMobileMenu} 
                 customBurgerIcon={
-                  <GiHamburgerMenu size={25} />
+                  <GiHamburgerMenu size={25} color={BLACK} />
                 } 
                 customCrossIcon={
                   <RiCloseFill size={33} color={BLACK} />
