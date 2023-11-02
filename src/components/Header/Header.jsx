@@ -39,7 +39,7 @@ const Header = () => {
                     )
                   }
                   return (
-                    <MenuItemLink key={menu} to={`#${menu}`}>{menu}</MenuItemLink>
+                    <MenuItemLink key={menu} href={`#${menu}`}>{menu}</MenuItemLink>
                   );
                 })}
               </HeaderMenuList>
@@ -66,7 +66,7 @@ const Header = () => {
                     )
                   }
                   return (
-                    <MenuItemLinkMobile key={menu} to={`#${menu}`}>{menu}</MenuItemLinkMobile>
+                    <MenuItemLinkMobile key={menu} href={`#${menu}`}>{menu}</MenuItemLinkMobile>
                   );
                 })}
               </Menu>
