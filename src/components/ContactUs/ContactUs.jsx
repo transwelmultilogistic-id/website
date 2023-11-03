@@ -2,8 +2,8 @@ import React from 'react';
 import Row from 'react-bootstrap/Row';
 import { ORANGE} from '../../utils/colors';
 import {AiFillPhone, AiTwotoneMail} from 'react-icons/ai';
-import { COMPANY_EMAIL, COMPANY_MOBILE_NO, MAPS_LINK } from '../../utils/constants';
-import LocationMapImage from '../../assets/location-map.png';
+import { COMPANY_EMAIL, COMPANY_MOBILE_NO, COMPANY_MOBILE_NO_2, MAPS_LINK } from '../../utils/constants';
+import LocationMapImage from '../../../public/assets/location-map.png';
 import { 
   ContactUsContainer,
   ContactUsCol,
@@ -31,8 +31,12 @@ const ContactUs = () => {
               <div style={{width: 30, height: 30, alignSelf: 'start'}}>
                 <AiFillPhone size={20} />
               </div>
-              <a href={`tel:${COMPANY_MOBILE_NO}`} style={{fontFamily: 'PoppinsRegular', fontSize: '1rem', fontStyle: 'normal', textDecoration: 'none', width: 175, color: ORANGE}}>
+              <a href={`tel:${COMPANY_MOBILE_NO}`} style={{fontFamily: 'PoppinsRegular', fontSize: '1rem', fontStyle: 'normal', textDecoration: 'none', color: ORANGE}}>
                 {COMPANY_MOBILE_NO}
+              </a>
+              <span style={{margin: '0px 5px', fontFamily: 'PoppinsRegular', color: ORANGE}}>/</span>
+              <a href={`tel:${COMPANY_MOBILE_NO_2}`} style={{fontFamily: 'PoppinsRegular', fontSize: '1rem', fontStyle: 'normal', textDecoration: 'none', color: ORANGE}}>
+                {COMPANY_MOBILE_NO_2}
               </a>
             </div>
             <div style={{display: 'flex', alignItems: 'center', textAlign: 'center'}}>

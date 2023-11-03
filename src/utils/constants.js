@@ -1,7 +1,8 @@
 export const menuItems = ['Home', 'About Us', 'Services', 'Our Values', 'Contact Us', 'Our Projects']
-export const MAPS_LINK = 'https://maps.app.goo.gl/Z5fFNVq9iFpBcWiN8?g_st=ic';
+export const MAPS_LINK = 'https://maps.app.goo.gl/xMqQMTgJvtkT6gEJ6';
 export const WHATSAPP_LINK = 'https://wa.link/dk81e1';
 export const COMPANY_MOBILE_NO = '+6285213058900';
+export const COMPANY_MOBILE_NO_2 = '62881082328188';
 export const COMPANY_EMAIL = 'sales@transwel.com';
 export const CAROUSEL_RESPONSIVE_SIZES_LOGO = {
   desktop: {
