@@ -43,7 +43,7 @@ export const ContactUsSectionOpeningHoursTitle = styled.h2`
 export const ContactUsAddress = styled.div`
   font-family: 'PoppinsRegular', 'sans-serif';
   @media (max-width: 768px) {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 `
 
