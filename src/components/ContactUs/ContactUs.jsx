@@ -3,7 +3,7 @@ import Row from 'react-bootstrap/Row';
 import { ORANGE} from '../../utils/colors';
 import {AiFillPhone, AiTwotoneMail} from 'react-icons/ai';
 import { COMPANY_EMAIL, COMPANY_MOBILE_NO, COMPANY_MOBILE_NO_2, MAPS_LINK } from '../../utils/constants';
-import LocationMapImage from '../../../public/assets/location-map.png';
+import LocationMapImage from '../../assets/location-map.png';
 import { 
   ContactUsContainer,
   ContactUsCol,
